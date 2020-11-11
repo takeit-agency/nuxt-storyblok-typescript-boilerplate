@@ -49,7 +49,7 @@ export default {
   modules: [
     [
       'storyblok-nuxt',
-      { accessToken: 'STORY_BLOK_ACCESS_TOKEN', cacheProvider: 'memory' },
+      { accessToken: '', cacheProvider: 'memory' },
     ],
   ],
   router: {

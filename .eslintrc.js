@@ -6,16 +6,24 @@ module.exports = {
   },
   extends: [
     '@nuxtjs/eslint-config-typescript',
-    'prettier',
-    'prettier/vue',
-    'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
-  plugins: ['prettier'],
-  // add your custom rules here
   rules: {
     semi: 'off',
-    '@typescript-eslint/semi': ['error'],
     camelcase: 'off',
+    'comma-dangle': 'off',
+    'space-before-function-paren': 'off',
+    'no-undef': 'off',
+
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/mustache-interpolation-spacing': 'off',
+    'vue/attribute-hyphenation': 'off',
+    'vue/html-closing-bracket-spacing': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
+    'vue/attributes-order': 'off',
+    'vue/html-self-closing': 'off',
   },
+  ignorePatterns: [
+    './tests/e2e/**.*',
+  ],
 }

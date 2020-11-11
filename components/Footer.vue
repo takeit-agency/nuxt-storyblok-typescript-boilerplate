@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-   Footer
+    Footer
   </footer>
 </template>
 

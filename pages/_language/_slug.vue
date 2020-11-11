@@ -10,9 +10,8 @@
 </template>
 
 <script lang="ts">
-import marked from 'marked'
 import { StoryData } from 'storyblok-js-client'
-import { Vue, Component, Mixins } from 'vue-property-decorator'
+import { Component, Mixins } from 'vue-property-decorator'
 import { Getter } from 'vuex-class'
 import StoryblokPage from '../../mixins/storyblok-story-handler'
 

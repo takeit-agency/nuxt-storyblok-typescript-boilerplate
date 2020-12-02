@@ -53,7 +53,7 @@ export default {
     ],
   ],
   router: {
-    middleware: ['language-detection', 'redirect']
+    middleware: ['redirect', 'language-detection', 'load-data'] // order is important here
   },
   /*
   ** Build configuration
